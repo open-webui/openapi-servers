@@ -29,7 +29,7 @@ app.add_middleware(
 
 # Constants
 ALLOWED_DIRECTORIES = [
-    str(pathlib.Path(os.path.expanduser("~/")).resolve())
+    str(pathlib.Path(os.path.expanduser("~/mydir")).resolve())
 ]  # 👈 Replace with your paths
 
 # ------------------------------------------------------------------------------
