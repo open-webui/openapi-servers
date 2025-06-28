@@ -8,6 +8,7 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+**/pyvenv.cfg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -215,6 +216,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+**/bin/
+**/lib/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
