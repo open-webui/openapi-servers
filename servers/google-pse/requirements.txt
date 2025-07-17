@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+requests
