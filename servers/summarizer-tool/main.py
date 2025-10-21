@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from .summarizers.text_summarizer import TextSummarizer
+from summarizers.text_summarizer import TextSummarizer
 
 app = FastAPI(
     title="Summarizing Server",
