@@ -5,3 +5,5 @@ python-multipart
 
 pytz
 python-dateutil
+
+GitPython
