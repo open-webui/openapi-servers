@@ -50,6 +50,7 @@ Reference implementations provided in this repository demonstrate common use-cas
 - [**Get User Info Server**](servers/get-user-info) - Access and return enriched user profile information from authentication providers or internal systems.
 - [**SQL Chat Server**](servers/sql) - Connect to SQL databases and automatically generate, execute, and optimize queries based on your database schema and natural language input. Enables chat-based data exploration, leveraging external Retrieval-Augmented Generation (RAG) for advanced query assistance.
 - [**External RAG Tool Server**](servers/external-rag) - Connect and execute your own Retrieval-Augmented Generation (RAG) pipelines as callable API tools. Easily integrate custom or third-party RAG flows, providing structured access and modular composition for knowledge-intensive applications.
+- [**Bilig WorkPaper Formula Readback Server**](servers/bilig-workpaper) - Write spreadsheet model inputs, recalculate formulas, and return verified before/after readback proof without Excel or browser automation.
 
 (More examples and reference implementations will be actively developed and continually updated.)
 
