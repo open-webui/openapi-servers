@@ -1,0 +1,7 @@
+services:
+  bilig-workpaper-server:
+    build: .
+    ports:
+      - "8084:8000"
+    environment:
+      BILIG_BASE_URL: ${BILIG_BASE_URL:-https://bilig.proompteng.ai}

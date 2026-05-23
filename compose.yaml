@@ -16,6 +16,13 @@ services:
       context: ./servers/time
     ports:
       - 8083:8000
+  bilig-workpaper-server:
+    build:
+      context: ./servers/bilig-workpaper
+    ports:
+      - 8084:8000
+    environment:
+      BILIG_BASE_URL: ${BILIG_BASE_URL:-https://bilig.proompteng.ai}
 
 volumes:
   memory:
