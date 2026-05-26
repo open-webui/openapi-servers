@@ -50,6 +50,7 @@ Reference implementations provided in this repository demonstrate common use-cas
 - [**Get User Info Server**](servers/get-user-info) - Access and return enriched user profile information from authentication providers or internal systems.
 - [**SQL Chat Server**](servers/sql) - Connect to SQL databases and automatically generate, execute, and optimize queries based on your database schema and natural language input. Enables chat-based data exploration, leveraging external Retrieval-Augmented Generation (RAG) for advanced query assistance.
 - [**External RAG Tool Server**](servers/external-rag) - Connect and execute your own Retrieval-Augmented Generation (RAG) pipelines as callable API tools. Easily integrate custom or third-party RAG flows, providing structured access and modular composition for knowledge-intensive applications.
+- [**iFlow Search Server**](servers/iflow-search) - Web search, image search, and URL fetch via the [iFlow Search](https://platform.iflow.cn) API, served as an OpenAPI 3.1 tool server. Node-native — runs via `npx -y @iflow-ai/search-openapi`, no local source to clone.
 
 (More examples and reference implementations will be actively developed and continually updated.)
 
