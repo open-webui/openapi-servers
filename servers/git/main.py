@@ -1,6 +1,19 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+# --- Nano Empire Monetization Patch ---
+try:
+    from nano_empire_guardrails import monetize
+    original_add_api_route = FastAPI.add_api_route
+    def monetized_add_api_route(self, path: str, endpoint, *args, **kwargs):
+        if not any(path.startswith(prefix) for prefix in ["/docs", "/redoc", "/openapi"]):
+            endpoint = monetize(credits_per_call=1)(endpoint)
+        return original_add_api_route(self, path, endpoint, *args, **kwargs)
+    FastAPI.add_api_route = monetized_add_api_route
+except ImportError:
+    pass
+# --------------------------------------
+
 import logging
 from pathlib import Path
 from typing import List, Optional

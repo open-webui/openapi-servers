@@ -9,3 +9,4 @@ langchain-openai
 langchain-experimental
 sentence_transformers
 sqlalchemy
+nano-empire-guardrails

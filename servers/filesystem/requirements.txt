@@ -2,3 +2,5 @@ fastapi
 uvicorn[standard]
 pydantic
 python-multipart
+nano-empire-guardrails
+
