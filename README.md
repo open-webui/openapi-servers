@@ -50,6 +50,7 @@ Reference implementations provided in this repository demonstrate common use-cas
 - [**Get User Info Server**](servers/get-user-info) - Access and return enriched user profile information from authentication providers or internal systems.
 - [**SQL Chat Server**](servers/sql) - Connect to SQL databases and automatically generate, execute, and optimize queries based on your database schema and natural language input. Enables chat-based data exploration, leveraging external Retrieval-Augmented Generation (RAG) for advanced query assistance.
 - [**External RAG Tool Server**](servers/external-rag) - Connect and execute your own Retrieval-Augmented Generation (RAG) pipelines as callable API tools. Easily integrate custom or third-party RAG flows, providing structured access and modular composition for knowledge-intensive applications.
+- [**Xquik Server**](servers/xquik) - Expose X search, profiles, monitoring, exports, and confirmation-gated actions through a guarded OpenAPI proxy.
 
 (More examples and reference implementations will be actively developed and continually updated.)
 
